@@ -11,8 +11,8 @@ Example usage:
 ```
 echo "ŁOŚ" | ./diakrytynizator 1075041 623420 1; echo $?
 ```
-
-Diakrytynizator
+_ _ _ _
+## Diakrytynizator
 
 Zaimplementuj w asemblerze x86_64 program, który czyta ze standardowego wejścia tekst, modyfikuje go w niżej opisany sposób, a wynik wypisuje na standardowe wyjście. Do kodowania tekstu używamy UTF-8, patrz https://en.wikipedia.org/wiki/UTF-8. Program nie zmienia znaków o wartościach unicode z przedziału od 0x00 do 0x7F. Natomiast każdy znak o wartości unicode większej od 0x7F przekształca na znak, którego wartość unicode wyznacza się za pomocą niżej opisanego wielomianu.
 Wielomian diakrytynizujący
