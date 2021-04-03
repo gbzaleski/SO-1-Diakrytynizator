@@ -2,11 +2,15 @@
 Assembly x86_64 programme applying polynomial to UTF-8 words and validating input.
 
 Compile with: 
+```
 nasm -f elf64 -w+all -w+error -o diakrytynizator.o diakrytynizator.asm
 ld --fatal-warnings -o diakrytynizator diakrytynizator.o
+```
 
 Example usage:
+```
 echo "ŁOŚ" | ./diakrytynizator 1075041 623420 1; echo $?
+```
 
 Diakrytynizator
 
