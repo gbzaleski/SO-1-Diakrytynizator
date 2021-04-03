@@ -22,8 +22,9 @@ Wielomian diakrytynizujący definiuje się przez parametry wywołania diakrytyni
 ./diakrytynizator a0 a1 a2 ... an
 
 jako:
-
-w(x) = a_n * x^n + ... + a2 * x^2 + a1 * x + a0 
+```math
+w(x) = a_n * x^n + ... + a_2 * x^2 + a_1 * x + a_0 
+```
 
 Współczynniki wielomianu są nieujemnymi liczbami całkowitymi podawanymi przy podstawie dziesięć. Musi wystąpić przynajmniej parametr a0.
 
